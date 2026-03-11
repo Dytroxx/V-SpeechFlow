@@ -34,6 +34,7 @@ output*.txt
 
 # Models
 models/*.bin
+models/*.bin.part
 !models/.gitkeep
 
 # IDE
@@ -57,3 +58,13 @@ models/*.bin
 tmp*
 *.tmp
 .~*
+# User data
+history/
+logs/
+
+# macOS App build artifacts (py2app)
+build_app/
+dist/
+*.app/
+*.dmg
+*.pkg
